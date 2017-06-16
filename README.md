@@ -5,13 +5,13 @@ This demo intends to demonstrate the basic principle of Collaborative-Based Reco
 
 ## Sample data
 The movieLens data is in the format:
-
+```
        user_id  movie_id  rating  unix_timestamp
 0          196       242       3       881250949
 1          186       302       3       891717742
 2           22       377       1       878887116
 ...
-
+```
 ## Steps
 1. Transform the data into user-item utility matrix
 2. Compute sparcity of the user-item matrix
