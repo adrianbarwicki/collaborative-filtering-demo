@@ -1,6 +1,11 @@
 ## Collaborative Filtering
 Collaborative filtering is a method used by recommender systems based on the idea that your preferences / ratings / behaviour can be predicted from actions of people similar to you.
 
+( 1, 4 )
+( 2, 3 )
+
+
+
 This demo intends to demonstrate the basic principle of Collaborative-Based Recommender Systems.
 
 ## Sample data

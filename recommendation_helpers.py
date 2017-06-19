@@ -34,6 +34,8 @@ def calc_similarity(ratings, kind='user', epsilon=1e-9):
     norms = np.array([np.sqrt(np.diagonal(sim))])
     return (sim / norms / norms.T)
 
+
+
 def predict_simple(ratings, similarity, kind='user'):
     if kind == 'user':
         return similarity.dot(ratings) / np.array([np.abs(similarity).sum(axis=1)]).T
